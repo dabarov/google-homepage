@@ -11,15 +11,21 @@
         <nav class="nav-bar">
             <a href="https://mail.google.com/mail" class="nav-link">Gmail</a>
             <a href="https://www.google.com/imghp" class="nav-link">Images</a>
+            <a href="https://about.google/intl/en/products" class="nav-link google-apps"></a>
+            <a href="https://myaccount.google.com/" class="nav-link avatar"></a>
         </nav>
     </header>
     <main>
-        <img class="logo" src="./img/googlelogo.png" alt="Google">
+        <img class="logo" src="./img/google-logo.png" alt="Google">
         <form class="search-form" action="submit">
-            <input type="text" class="search-bar">
+            <div class="search-bar">
+                <img src="img/search-icon.svg" class="search-bar-icon search-icon">
+                <input type="search" name="search" class="bar">
+                <img src="img/voice-search.svg" class="search-bar-icon">
+            </div>
             <div class="search-buttons">
-                <button class="button">Google Search</button>
-                <button class="button">I'm Feeling Lucky</button>
+                <input type="submit" value="Google Search" class="button">
+                <input type="submit" value="I'm Feeling Lucky" class="button">
             </div>
         </form>
     </main>
